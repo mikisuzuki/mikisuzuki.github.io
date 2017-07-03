@@ -1,8 +1,8 @@
-/** {
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-}*/
+}
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif:700|Roboto');
 
@@ -11,8 +11,7 @@ body{
 }
 
 header{
-	margin: 2em;
-	background-color: #FFED74;
+    background-color: #FFED74;
     border: 1px black solid;
     padding: 20px;
 }
@@ -31,7 +30,8 @@ h1{
 nav {
 	background-color: #E8C66A;
     border: 1px black solid;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 nav a{
@@ -64,30 +64,49 @@ img {
 	width: 100%;
 }
 
+.project{
+	width: 100%;
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.project_left{
+	float: left;
+	background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.project_right{
+	float: right;
+	background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+}
+
 .project_figure{
-	/*margin:2em;*/
-	width: 35em;
+	width: 50%;
+	float: left;
 	background-color: #FFC675;
     border: 1px black solid;
     padding: 20px;
-    float: left;
 }
 
 .project_caption{
-	width: 30em;
-	/*margin:2em;*/
+	width: 50%;
+	float: left;
 	background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
-    float: left;
 }
+
+/*.project_right .project_figure, 
+.project_right .project_caption{
+    float: right;
+}*/
 
 footer{
     clear: both;
 }
 
-#wrapper {
-	width: 1080px;
-	/*margin-left: auto;
-	margin-right: auto;*/
-}
