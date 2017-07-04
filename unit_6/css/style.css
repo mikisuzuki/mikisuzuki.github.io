@@ -11,9 +11,18 @@ body{
 }
 
 header{
+	min-height: 100vh;
+	width: 100%;
+	display: table;
     background-color: #FFED74;
     border: 1px black solid;
     padding: 20px;
+}
+
+header .inner{
+	display: table-cell;
+	vertical-align: bottom;
+	width: 100%;
 }
 
 h1,
@@ -65,24 +74,24 @@ img {
 }
 
 .project{
+    min-height: 100vh;
 	width: 100%;
+	display: table;
 	background-color: #FFB7CF;
     border: 1px black solid;
     padding: 20px;
 }
 
-.project_left{
-	float: left;
-	background-color: #E582A2;
-    border: 1px black solid;
-    padding: 20px;
+.project .inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
 }
 
-.project_right{
-	float: right;
-	background-color: #E55B88;
-    border: 1px black solid;
-    padding: 20px;
+.project:after{
+	content: "";
+	display: block;
+	clear: both;
 }
 
 .project_figure{
@@ -101,10 +110,6 @@ img {
     padding: 20px;
 }
 
-/*.project_right .project_figure, 
-.project_right .project_caption{
-    float: right;
-}*/
 
 footer{
     clear: both;
