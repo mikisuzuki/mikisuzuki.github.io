@@ -116,8 +116,23 @@ footer{
 }
 
 @media only screen and (max-width: 768px){
+    .project_figure{
+    	width: 85%;
+    	float: none;
+    }
+
     .project_caption{
-    float: none; 
-    width: auto;
+    display: block;
+    width: 85%;
 }
+
+@media only screen and (max-width: 480px){
+	 .project_figure{
+    	width: 85%;
+    	float: none;
+    }
+
+	.project_caption p{
+    display: none;
+	}
 }
