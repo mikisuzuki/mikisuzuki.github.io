@@ -88,6 +88,21 @@ img {
 	width: 100%;
 }
 
+#timeline .project-caption{
+height:0;
+padding-bottom: 56.25%;
+width: 100%;
+position: relative;
+}
+
+.project-caption-content {
+width: 100%;
+position: absolute;
+top: 50%;
+left: 0;
+transform: translateY(-50%);
+}
+
 .project:after{
 	content: "";
 	display: block;
@@ -119,18 +134,25 @@ footer{
     .project_figure{
     	width: 85%;
     	float: none;
+    	margin: 0 auto;
     }
 
     .project_caption{
     display: block;
     width: 85%;
+    margin: 0 auto;
+    float: none;
+    }
 }
 
 @media only screen and (max-width: 480px){
-	 .project_figure{
-    	width: 85%;
-    	float: none;
-    }
+	.project_figure{
+		width: 100%;
+	}
+
+	.project_caption{
+		width: 100%;
+	}
 
 	.project_caption p{
     display: none;
