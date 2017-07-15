@@ -88,14 +88,7 @@ img {
 	width: 100%;
 }
 
-#timeline .project-caption{
-height:0;
-padding-bottom: 56.25%;
-width: 100%;
-position: relative;
-}
-
-.project-caption-content {
+.project-caption-content{
 width: 100%;
 position: absolute;
 top: 50%;
@@ -118,8 +111,12 @@ transform: translateY(-50%);
 }
 
 .project_caption{
-	width: 50%;
+	/*width: 50%;
 	float: left;
+	height:0;*/
+    padding-bottom: 56.25%;
+    width: 100%;
+    position: relative;
 	background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
