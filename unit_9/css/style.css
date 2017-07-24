@@ -1,0 +1,240 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:700|Roboto');
+
+body{
+	font-size: 16px;
+}
+
+.dotstyle ul {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	cursor: default;
+}
+
+.dotstyle li {
+	position: relative;
+	display: block;
+	float: left;
+	margin: 0 16px;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.dotstyle li a {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border-radius: 50%;
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.3);
+	text-indent: -999em;
+	cursor: pointer; /* make the text accessible to screen readers */
+	position: absolute;
+}
+
+
+header{
+	min-height: 100vh;
+	width: 100%;
+	display: table;
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+header .inner{
+	display: table-cell;
+	vertical-align: bottom;
+	width: 100%;
+}
+
+h1,
+h3,
+p, 
+a{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	font-size: 1.5em;
+}
+
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav a{
+    color: inherit;
+	text-decoration: none;
+	/*padding-bottom: 1.25em;*/
+	line-height: 1.5em;
+	/*margin: 2em;*/
+}
+
+nav a:hover {
+	color: #333333;
+}
+
+h2{
+	font-family: 'Noto Serif', serif;
+	font-size: 1.25em;
+}
+
+h3, a{
+	font-size: 1em;
+}
+
+p{
+	font-size:1em;
+	line-height: 1.5em;
+}
+
+img {
+	width: 100%;
+	float: left;
+}
+
+.project{
+    min-height: 100vh;
+    max-height: 100vh;
+	width: 100%;
+	display: table;
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.project .inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.project-caption-content{
+	width: 100%;
+	padding: 20px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.project:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.project_figure{
+	width: 50%;
+	float: left;
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.project_caption{
+	width: 40%;
+	float: left;
+	height:0;
+    padding-bottom: 56.25%;
+    position: relative;
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#historyoftypography .project_caption{
+    padding-bottom: 34.4%;
+}
+
+#maskparty .project_caption{
+	padding-bottom: 47.25%;
+}
+
+#japanese-packaging .project_caption{
+	padding-bottom: 74%;
+}
+
+#eventmenu .project_caption{
+	padding-bottom: 37.1%;
+}
+
+#flowers .project_caption{
+	padding-bottom: 47.3%;
+}
+
+#nobody .project_caption{
+	padding-bottom: 32.3%;
+}
+
+#book-mapping .project_caption{
+	padding-bottom: 47.3%;
+}
+
+#knowledge-graph .project_caption{
+	padding-bottom: 48%;
+}
+
+#sevensamurai .project_caption{
+	padding-bottom: 63%;
+}
+
+#yarn-company .project_caption{
+	padding-bottom: 48%;
+}
+
+#exhibition .project_caption{
+	padding-bottom: 23%;
+}
+
+#breathe .project_caption{
+	padding-bottom: 48%;
+}
+
+footer{
+    clear: both;
+}
+
+@media only screen and (max-width: 768px){
+    .project_figure{
+    	width: 85%;
+    	float: none;
+    	margin: 0 auto;
+    }
+
+    .project_caption{
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+    float: none;
+    }
+}
+
+@media only screen and (max-width: 480px){
+	.project_figure{
+		width: 100%;
+	}
+
+	.project_caption{
+		width: 100%;
+	}
+
+	.project_caption p{
+    display: none;
+	}
+}

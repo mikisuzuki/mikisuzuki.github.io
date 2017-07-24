@@ -91,6 +91,7 @@ img {
 
 .project-caption-content{
 	width: 100%;
+	padding: 20px;
 	position: absolute;
 	top: 50%;
 	left: 0;
@@ -104,11 +105,11 @@ img {
 }
 
 .project_figure{
-	/*width: 50%;
+	width: 50%;
 	float: left;
 	background-color: #FFC675;
     border: 1px black solid;
-    padding: 20px;*/
+    padding: 20px;
 }
 
 .project_caption{
@@ -116,13 +117,59 @@ img {
 	float: left;
 	height:0;
     padding-bottom: 56.25%;
-    width: 100%;
     position: relative;
 	background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
 }
 
+#historyoftypography .project_caption{
+    padding-bottom: 34.4%;
+}
+
+#maskparty .project_caption{
+	padding-bottom: 47.25%;
+}
+
+#japanese-packaging .project_caption{
+	padding-bottom: 74%;
+}
+
+#eventmenu .project_caption{
+	padding-bottom: 37.1%;
+}
+
+#flowers .project_caption{
+	padding-bottom: 47.3%;
+}
+
+#nobody .project_caption{
+	padding-bottom: 32.3%;
+}
+
+#book-mapping .project_caption{
+	padding-bottom: 47.3%;
+}
+
+#knowledge-graph .project_caption{
+	padding-bottom: 48%;
+}
+
+#sevensamurai .project_caption{
+	padding-bottom: 63%;
+}
+
+#yarn-company .project_caption{
+	padding-bottom: 48%;
+}
+
+#exhibition .project_caption{
+	padding-bottom: 23%;
+}
+
+#breathe .project_caption{
+	padding-bottom: 48%;
+}
 
 footer{
     clear: both;
@@ -156,3 +203,4 @@ footer{
     display: none;
 	}
 }
+
