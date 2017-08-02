@@ -74,8 +74,8 @@ img {
     min-height: 100vh;
 	width: 100%;
 	display: table;
-	background-color: #FFB7CF;
-    border: 1px black solid;
+	/*background-color: #FFB7CF;
+    border: 1px black solid;*/
     padding: 20px;
 }
 
@@ -103,9 +103,9 @@ img {
 .project_figure{
 	width: 50%;
 	float: left;
-	background-color: #FFC675;
+	/*background-color: #FFC675;
     border: 1px black solid;
-    padding: 20px;
+*/    padding: 20px;
 }
 
 .project_caption{
@@ -114,8 +114,8 @@ img {
 	height:0;
     padding-bottom: 56.25%;
     position: relative;
-	background-color: #E89C6C;
-    border: 1px black solid;
+/*	background-color: #E89C6C;
+    border: 1px black solid;*/
     padding: 20px;
 }
 
