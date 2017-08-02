@@ -184,10 +184,11 @@ footer{
     }
 
     .project_caption{
-    display: block;
-    width: 85%;
-    margin: 0 auto;
-    float: none;
+	  /*  display: block;*/
+	    width: 85%;
+	    margin: 0 auto;
+	    float: none;
+	    display: inline-block;
     }
 }
 
@@ -198,9 +199,11 @@ footer{
 
 	.project_caption{
 		width: 100%;
+		display: inline-block;
+		margin: 0 auto;
 	}
 
 	.project_caption p{
-    display: none;
+	    display: none;
 	}
 }
