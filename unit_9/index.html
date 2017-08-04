@@ -37,14 +37,12 @@
 		<div class="section">
 			<section class="project" id="historyoftypography">	
 				<div class="inner">
-					<figure class="project_figure clearfix">
+					<figure class="project_figure clearfix"> <!-- you have clearfix in your html, but it also needs to be defined in your css (i added it) -->
 						<img src="images/historyoftypography.jpg" alt="Picture of History of Typography" title="History of Typography">
-					<figcaption class="project_caption">
-							<div class="project-caption-content">
-								<h2>The History of Typography</h2>
-								<p>Created a timeline focusing on the areas where typographical revolution happened.</p>
-							</div>
-				    </figcaption>			
+						<figcaption class="project-caption-content"> <!-- I deleted the div and put that class on the figcaption -->
+							<h2>The History of Typography</h2>
+							<p>Created a timeline focusing on the areas where typographical revolution happened.</p>
+						</figcaption>			
 					</figure>
 				</div>
 		    </section>
