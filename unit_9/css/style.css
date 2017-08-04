@@ -66,7 +66,7 @@ p{
 }
 
 img {
-	width: 100%;
+	width: 50%;
 	float: left;
 }
 
@@ -103,20 +103,23 @@ img {
 .project_figure{
 	width: 50%;
 	float: left;
+	position: relative;
+	overflow: hidden;
 	/*background-color: #FFC675;
     border: 1px black solid;
 */    padding: 20px;
 }
 
 .project_caption{
-	width: 40%;
+	width: 50%;
 	float: left;
-	height:0;
-    padding-bottom: 56.25%;
-    position: relative;
+    position: static;
+    top: 50%;
+    left: 50%;
+    transform: initial;
 /*	background-color: #E89C6C;
     border: 1px black solid;*/
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 #historyoftypography .project_caption{
