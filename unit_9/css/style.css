@@ -1,10 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:700|Roboto');
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif:700|Roboto');
 
 body{
 	font-size: 16px;
@@ -86,11 +85,11 @@ img {
 }
 
 .project-caption-content{
-	width: 100%;
+	width: 50%;
 	padding: 20px;
 	position: absolute;
 	top: 50%;
-	left: 0;
+	left: 50%;
 	transform: translateY(-50%);
 }
 
@@ -99,27 +98,23 @@ img {
 	display: block;
 	clear: both;
 }
-
+/* Changed the width to 100%, got rid of the float, and added position:relative; */
 .project_figure{
-	width: 50%;
-	float: left;
-	position: relative;
-	overflow: hidden;
 	/*background-color: #FFC675;
     border: 1px black solid;
 */    padding: 20px;
+	position:relative;
 }
 
 .project_caption{
-	width: 50%;
+	width: 40%;
 	float: left;
-    position: static;
-    top: 50%;
-    left: 50%;
-    transform: initial;
+	height:0;
+    padding-bottom: 56.25%;
+    position: relative;
 /*	background-color: #E89C6C;
     border: 1px black solid;*/
-    padding: 20px 0px;
+    padding: 20px;
 }
 
 #historyoftypography .project_caption{
@@ -178,7 +173,13 @@ img {
 footer{
     clear: both;
 }
-
+.clearfix:after {
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;
+}
 @media only screen and (max-width: 768px){
     .project_figure{
     	width: 85%;
